@@ -1,0 +1,111 @@
+body {
+  background-image: url(HW1_background.jpg);
+}
+
+
+div.title_background{
+  background-color: #FFF;
+  height: 13em;
+  width:fit-content;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  
+}
+h1 {
+  text-align: center;
+  font-size: 100px;
+  margin-top:5px;
+  margin-bottom: 5px;
+  font-family: "Libre Caslon Display";
+}
+div a{
+  color:#FFF;
+  text-decoration: none;
+}
+
+div.join{
+  text-align: center;
+  background-color:rgb(91,159,224);
+  color:#FFF;
+  font-size: 25px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  width: 120px;
+  height: 40px;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top:20em;
+  transition: 0.5s;
+}
+.join:hover{
+  background-color:rgb(66,135,204);
+  /*opacity: 0.5;*/ 
+}
+div.account{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width:auto;
+  font-size: 1px;
+  opacity:0.55;
+  
+}
+
+
+hr{
+  position:relative;
+  top:2em;
+}
+input{
+  border-radius: 15px;
+  background-color: #EEE;
+  position:absolute;
+  left: 40px;
+  top:13em;
+}
+input:focus{
+  border-radius: 15px;
+}
+
+input:-ms-input-placeholder {
+  color: #999;
+  
+}
+input:focus:-ms-input-placeholder {
+  color: red;
+}
+
+ul { /* 取消ul預設的內縮及樣式 */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ul.list{
+  z-index: 99;
+  position: absolute;
+  /*border: #ccc 1px solid;*/
+  display: inline-block;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 13px;
+  top:13em;
+  right:0;
+  /*overflow: hidden;*/
+}
+ul.list li{
+  background-color: #fff;
+  color: #333;
+  display: block;
+  padding: 0 20px;
+  line-height: 40px;
+  margin: 0;
+  font-family: "Libre Caslon Display";
+  font-size: 24px;
+}
+ul.list li:hover{
+  background-color: coral;
+  color:#FFF;
+}
+

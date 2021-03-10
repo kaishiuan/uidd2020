@@ -1,0 +1,57 @@
+h1 {
+  text-align: center;
+  font-size: 100px;
+  margin-top:5px;
+  margin-bottom: 5px;
+}
+
+
+div.account_bg{
+  background-color: #EEE;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:2em;
+  width:30em;
+  height: 30em;
+  
+  border-radius: 10px;
+  border: solid #DDD 2px;
+}
+div.account_bg input{
+  position: relative;
+  left:4em;
+  border-radius: 5px;
+  border:none;
+  height: 2em;
+}
+div.account_bg p{
+  position:relative;
+  opacity:0.65;
+  font-family: "Noto Sans SC";
+  position: relative;
+  left:4em;
+}
+input{
+  background-color: #DDD;
+  width:28em;
+ 
+}
+div.join{
+  text-align: center;
+  background-color:rgb(91,159,224);
+  color:#FFF;
+  font-size: 25px;
+  font-family: "Noto Sans SC (DemiLight)";
+  border-radius: 5px;
+  padding: 10px 30px;
+  width: 250px;
+  height: 40px;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top:3em;
+  transition: 0.5s;
+}
+.join:hover{
+  background-color:rgb(66,135,204);
+  /*opacity: 0.5;*/ 
+}
